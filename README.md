@@ -1,43 +1,10 @@
-/// Características Técnicas Avançadas
-/// Modelo Físico Implementado:
+## Características Técnicas Avançadas
 
-/*
-    Sistema de Referência 3D
-        - Coordenadas Norte, Leste, Altitude
-        - Vento em componentes Norte e Leste
-*/
-
-/*
-    Atmosfera Padrão
-        - Variação de temperatura com altitude (-0.0065 K/m)
-        - Variação de pressão com altitude
-        - Umidade relativa incluída
-*/
-
-/*
-    Aerodinâmica
-        - Arrasto dependente de Mach
-        - Coeficiente balístico (BC) para modelagem simplificada
-        - Área transversal do projétil
-*/
-
-/*
-    Forças Consideradas
-        - Gravidade (variação com altitude)
-        - Arrasto aerodinâmico
-        - Força de Coriolis (rotação da Terra)
-*/
-
-/*
-    Integração Numérica
-        - Método Runge-Kutta 4ª ordem (precisão O(h⁴))
-        - Passo fixo de 0.01 segundos
-*/
-
-/*
-    Saída de Dados:
-        - Visualização: Gráfico de trajetória 2D
-        - Tabela de Resultados: 10 parâmetros de impacto
-        - Exportação: CSV/TXT com todos os dados
-        - Status: Feedback em tempo real da simulação
-*/
+| Módulo | Especificações |
+|--------|----------------|
+| **Sistema de Referência 3D** | • Coordenadas Norte, Leste, Altitude<br>• Vento em componentes Norte e Leste |
+| **Atmosfera Padrão** | • Variação de temperatura com altitude (-0.0065 K/m)<br>• Variação de pressão com altitude<br>• Umidade relativa incluída |
+| **Aerodinâmica** | • Arrasto dependente de Mach<br>• Coeficiente balístico (BC) para modelagem simplificada<br>• Área transversal do projétil |
+| **Forças Consideradas** | • Gravidade (variação com altitude)<br>• Arrasto aerodinâmico<br>• Força de Coriolis (rotação da Terra) |
+| **Integração Numérica** | • Método Runge-Kutta 4ª ordem (precisão O(h⁴))<br>• Passo fixo de 0.01 segundos |
+| **Saída de Dados** | • Visualização: Gráfico de trajetória 2D<br>• Tabela de Resultados: 10 parâmetros de impacto<br>• Exportação: CSV/TXT com todos os dados<br>• Status: Feedback em tempo real da simulação |
